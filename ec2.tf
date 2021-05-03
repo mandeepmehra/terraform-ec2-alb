@@ -1,6 +1,5 @@
 provider "aws" {
   region  = "us-east-2"
-  profile = "training"
 }
 
 resource "aws_instance" "test" {
